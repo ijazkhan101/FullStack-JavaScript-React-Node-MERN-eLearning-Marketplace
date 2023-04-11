@@ -11,3 +11,10 @@
     padding-top: 40px;
     font-size: 40px;
 }
+
+.ant-menu > .ant-menu-item {
+  color: #0000DB;
+  font-size: 30px;
+  text-decoration: none !important;
+  padding: auto;
+}
