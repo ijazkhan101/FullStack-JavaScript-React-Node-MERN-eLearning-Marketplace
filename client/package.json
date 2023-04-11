@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev":"next dev",
-    "build":"next build",
-    "start" :"next start"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "antd": "^5.4.2",
     "next": "^13.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
