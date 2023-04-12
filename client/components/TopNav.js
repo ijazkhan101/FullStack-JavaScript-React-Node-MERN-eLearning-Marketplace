@@ -1,7 +1,7 @@
 import { Menu } from "antd";
 import Link from "next/link";
 import {
-AppstoreOutlined,
+    AppstoreOutlined,
   LoginOutlined,
   UserAddOutlined,
 } from "@ant-design/icons";
@@ -11,17 +11,17 @@ const TopNav = () => {
   return (
     <>
       <Menu mode="horizontal">
-        <Item icon={<AppstoreOutlined />}>
+        <Item icon={<AppstoreOutlined  style={{ fontSize: '24px' }} />}>
           <Link href="/" legacyBehavior>
             <a>App</a>
           </Link>
         </Item>
-        <Item icon={<LoginOutlined />}>
+        <Item icon={<LoginOutlined style={{ fontSize: '24px' }} />}>
           <Link href="/login" legacyBehavior>
             <a>Login</a>
           </Link>
         </Item>
-        <Item icon={<UserAddOutlined />}>
+        <Item icon={<UserAddOutlined style={{ fontSize: '24px' }} />}>
           <Link href="/register" legacyBehavior>
             <a>Register</a>
           </Link>
